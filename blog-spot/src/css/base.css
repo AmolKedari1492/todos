@@ -1,0 +1,29 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.click {
+    cursor: pointer;
+}
+
+.text-pull-left {
+    text-align: left;
+}
+
+.text-pull-right {
+    text-align: right;
+}
+
+.align-center, 
+.pull-center {
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+}

@@ -1,0 +1,20 @@
+.app {
+  margin: 32px;
+}
+
+.app .app__header {
+  border: 5px solid orange;
+  border-left: 0;
+  border-right: 0;
+  display: flex;
+  line-height: 38px;
+  padding: 12px 0;
+}
+
+.app .app__header h4{
+  margin-left: auto;
+}
+
+.app .app__header i {
+  margin-left: 4px;
+}

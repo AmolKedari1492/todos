@@ -1,0 +1,68 @@
+[
+    {
+      "title": "Introduction to Micro Frontends",
+      "description": "Today, in this article, I am going to give you a small introduction to Micro frontends and its architecture. Mainly I am focusing on What is Micro-frontends? What is the idea behind that? Why do we need it? What can we achieve by using this approach? and give a basic idea behind that.",
+      "author": "Amol Kedari",
+      "published_date": 1573112087000,
+      "imgs": {
+        "thumb": "https://miro.medium.com/max/625/1*U4H5iq64SLkwg6Qxb_zd3Q.png",
+        "large": "https://miro.medium.com/max/625/1*U4H5iq64SLkwg6Qxb_zd3Q.png"
+      },
+      "category": "JS"
+    },
+    {
+      "title": "Exploring different Micro frontends approaches",
+      "description": "These four methods are widely used ones. Out of these four methods, we are concentrating on Dynamic JS and Single SPA library. I had done POC on both of these and I am sharing my findings in the following table.",
+      "author": "Bob",
+      "published_date": 1573112097000,
+      "imgs": {
+        "thumb": "https://miro.medium.com/max/1668/1*T5Iv8dxpJCiXY8RCohC-FQ.png",
+        "large": "https://miro.medium.com/max/1668/1*T5Iv8dxpJCiXY8RCohC-FQ.png"
+      },
+      "category": "JS"
+    },
+    {
+      "title": "Introduction to Grid in CSS",
+      "description": "Grid is a new CSS display value so that we can achieve same layout, table structure in a very simple manner.",
+      "author": "Gridly",
+      "published_date": 1573112287000,
+      "imgs": {
+        "thumb": "https://miro.medium.com/max/1758/1*Z5B4kOI40vC_8BdPD7LpNg.png",
+        "large": "https://miro.medium.com/max/1758/1*Z5B4kOI40vC_8BdPD7LpNg.png"
+      },
+      "category": "CSS"
+    },
+    {
+      "title": "Exploring NLP in JavaScript",
+      "description": "NLP short for Natural Language Processing, is a field of Artificial Intelligence widely used to interpret, understand and process human/natural language. It is commonly used for speech recognition and NLG(Natural Language Generation).",
+      "author": "Neha",
+      "published_date": 1573112287000,
+      "imgs": {
+        "thumb": "https://miro.medium.com/max/1280/1*1dYoVm-WXho9ZzIf7gG6kg.png",
+        "large": "https://miro.medium.com/max/1280/1*1dYoVm-WXho9ZzIf7gG6kg.png"
+      },
+      "category": "NLP"
+    },
+    {
+      "title": "CopyStack — chrome plugin",
+      "description": "CopyStack is perfect match. A CopyStack(CS) is a chrome plugin which keeps track of your last copied text and helps you to use/insert them within webpages/websites. CS provides shortcuts for same",
+      "author": "Amol Extn",
+      "published_date": 1573112287000,
+      "imgs": {
+        "thumb": "https://cdn-images-1.medium.com/max/1000/1*dXNzQt_HwMJq7K4EKxmrIg.jpeg",
+        "large": "https://cdn-images-1.medium.com/max/1000/1*dXNzQt_HwMJq7K4EKxmrIg.jpeg"
+      },
+      "category": "Extenstion"
+    },
+    {
+      "title": "LazyReader",
+      "description": "LazyReader(LR) is a chrome plugin which reads an newspaper article for you. If you are lazy to read an article or you are really busy in doing something and at same time you want to read an newspaper article, then LR comes into picture. It will read the text content. You don’t need to read it explicitly, LR will do it for you, you just need to listen it.",
+      "author": "Chrome extn",
+      "published_date": 1573112287000,
+      "imgs": {
+        "thumb": "https://miro.medium.com/max/860/1*PzHnA5Hgxompq6AmBWy5aQ.jpeg",
+        "large": "https://miro.medium.com/max/860/1*PzHnA5Hgxompq6AmBWy5aQ.jpeg"
+      },
+      "category": "Extenstion"
+    }
+  ]
