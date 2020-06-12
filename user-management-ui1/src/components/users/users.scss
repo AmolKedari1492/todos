@@ -1,0 +1,95 @@
+@import "../../App.scss";
+
+.users {
+    .users__list--headers,
+    .users__list--data {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .mobile-view {
+        display: none;
+    }
+
+    .filter-text {
+        padding: 5px 10px;
+        margin: 0;
+        text-align: right;
+    }
+
+    @media all and (max-width: $sm) {
+        .desktop-view {
+            display: none;
+        }
+        
+        h2 {
+            padding: 0;
+            margin: 0;
+        }
+
+        .mobile-view {
+            display: block;
+        }
+    }
+
+    &__filters {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        label {
+            @extend .label;
+        }
+
+        input {
+            @extend .input;
+            height: auto;
+        }
+
+        select {
+            width: 100%;
+            border: 1px solid #E8E8E8;
+            border-radius: 4px;
+        }
+
+        .btn {
+            margin: 0 8px;
+            padding: 4px 12px;
+        }
+
+        &--items,
+        &--actions {
+            display: flex;
+            margin: 8px;
+        }
+
+        @media all and (max-width: $sm) {
+            grid-template-columns: none;
+        }
+
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        border-radius: .25rem;
+        position: sticky;
+        top: 0;
+        &--headers {
+            z-index: 2;
+            color: #fff;
+            background-color: #007bff;
+            border-color: #007bff;
+            padding: 10px;
+            margin: 0 10px;
+            position: sticky;
+            top: 0;
+            margin-top: 10px;;
+        }
+        &--data {
+            padding: 10px;
+            margin: 0 10px;
+            border-bottom: 1px solid #E8E8E8;
+        }
+    }
+}

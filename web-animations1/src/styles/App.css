@@ -1,0 +1,302 @@
+/* Base Application Styles */
+
+body {
+  font-family: 'Courgette', cursive;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+#pencil {
+  position: absolute;
+  top: 1000px;
+  transition: left, top ease-in-out 100ms;
+}
+
+.overlay-item {
+  position: absolute;
+}
+
+.index {
+    margin: 0 auto;
+    width: 960px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 40px;
+}
+
+.section {
+  display: inline-block;
+  width: 70%;
+  vertical-align: top;
+}
+
+.info-section {
+  background: #e8e8e8;
+  width: 30%;
+  padding: 20px 0
+}
+
+.image-wrapper {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 5px;
+  border-radius: 50%;
+}
+.ref {
+  margin-top: 25px;
+}
+.personal-info {
+  text-align: center;
+}
+.personal-info  h2 {
+  margin-bottom: 0;
+}
+.personal-info  h4 {
+  margin-top: 10px;
+}
+
+.other-detail {
+  padding: 0 20px;
+}
+
+.other-detail .fa {
+  margin-right: 10px;
+}
+.no-margin {
+  margin: 0;
+}
+
+.dot {
+  height: 30px;
+  width: 30px;
+  background: #337AB7;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 2px;
+  color: white;
+}
+.dot .text {
+  position: relative;
+  top: 6px;
+  left: 8px;
+}
+
+.img-icon {
+  height: 30px;
+  width: 30px;
+  margin: 0 10px;
+}
+
+.lang {
+    height: 30px;
+    margin: 5px 0;
+}
+.lang-text {
+    line-height: 30px;
+}
+
+.row {
+    display: block;
+    width: 100%;
+    min-height: 24px;
+}
+
+@keyframes progress-bar-stripes {
+  from  {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+.progress-bar {
+  height: 18px;
+  width: 300px;
+  background: #e8e8e8;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 0 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.progress-bar-count {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  color: white;
+}
+
+.progress-bar .active {
+  background-color: #337ab7;
+  width: 210px;
+  height: 20px;
+  display: inline-block;
+  animation: progress-bar-stripes 2s linear infinite;
+  background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+  background-size: 40px 40px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+ul li {
+  display: block;
+  width: 100%;
+  height: 24px;
+  line-height: 24px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.col-75 {
+    width: 75%;
+    display: inline-block;
+}
+
+.col-25 {
+    width: 25%;
+    display: inline-block;
+}
+
+
+.address-img {
+  background-image: url('../images/yeoman.png');;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 10px;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+}
+
+.address, .email, .contact, .social-connect, .status {
+  vertical-align: top;
+}
+
+
+.image {
+  background-image: url('../images/amol.jpg');;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100%;
+  background-size: cover;
+  border-radius: 90%;
+}
+
+.index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+}
+
+.fa {
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+}
+
+.company {
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+.company.active {
+  background-color: #e8e8e8;
+}
+
+.company .title {
+  color: black;
+}
+.company .base {
+  padding: 10px 0;
+}
+
+
+.company .details {
+  color: gray;
+  margin: 10px;
+}
+
+
+.button {
+  background-color: green;
+  border-radius: 4px;
+  padding: 7px;
+  color: white;
+}
+.half {
+  display: inline-block;
+  width: 45%;
+}
+
+.core-details {
+
+}
+.right-divider {
+  /*border-right: 1px solid #e8e8e8;*/
+}
+.extra-details {
+}
+
+h1, .center {
+  text-align: center;
+}
+.tech-skill {
+  margin: 10px;
+  display: inline-block;
+  background-color: #e8e8e8;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 3px 3px 0px 1px #ccc;
+}
+
+.tech-skill:hover{
+  position: relative;
+  bottom: 2px;
+}
+.tech-skill .right{
+  display: none;
+}
+.dev-icon {
+  margin-right: 10px;
+}
+
+.edu-separator {
+  margin: 10px 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+h5 {
+  margin-bottom: 10px;
+}
+
+.default-panel {
+  margin: 10px 0;
+}
+
+.social-link {
+  margin: 5px;
+}
+
+.social-link:first-child {
+  margin-left: 0;
+}
+.extra-link {
+  margin-left: 10px;
+}

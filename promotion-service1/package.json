@@ -1,0 +1,22 @@
+{
+  "name": "promotion-service",
+  "version": "1.0.0",
+  "description": "A promotion endpoints",
+  "author": {
+    "name": "Amol Kedari"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.6",
+    "underscore": "^1.8.3",
+    "uuid": "^3.2.1"
+  }
+}

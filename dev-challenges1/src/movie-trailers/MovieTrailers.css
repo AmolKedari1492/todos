@@ -1,0 +1,336 @@
+.project-2__content{
+    background-color: gray;
+}
+
+.project-2 .option {
+    display: flex;
+    flex-direction: row; 
+    padding: 8px;
+}
+
+.project-2 .dropdown-wrapper {
+    position: relative;
+    margin-left: 12px;
+}
+
+.dropdown-wrapper .drop-down-menu {
+    background: gray;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px #E8E8E8;
+    display: inline-block;
+    right: 0;
+    position: absolute;
+    top: 26px;
+    z-index: 1;
+}
+
+.dropdown-wrapper input[type="submit"] {
+    width: 115px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.dropdown-wrapper input {
+    background-color: #000;
+    border-radius: 4px;
+    color: gray;
+    line-height: 24px;
+    min-width: 115px;
+    padding: 0px 18px;
+}
+
+.dropdown-wrapper .option {
+    color: #FFF;
+}
+
+.dropdown-wrapper .option__title {
+    font-size: 11px;
+}
+
+.dropdown-wrapper .option:hover {
+    color: #E8E8E8;    
+}
+
+.dropdown-wrapper .option__value {
+    margin-right: 8px;
+}
+
+.project-2 .project-2__header {
+    background-color: #000;
+    justify-content: flex-end;
+    padding: 0 24px;
+    margin: 24px 0 0;
+}
+
+.project-2 .movie-title,
+.project-2 .comming-soon-title,
+.project-2 .now-showing-title {
+    color: #333;
+    line-height: 2.5;
+    text-align: left;
+}
+
+.project-2 .movie-title {
+    color: #FFF;
+    font-family: cursive;
+    font-size: 18px;
+    margin-right: 24px;
+}
+
+.project-2 .comming-soon-title,
+.project-2 .now-showing-title { 
+    background-color: green;
+    border-radius: 8px;
+    box-sizing: content-box;
+    color: #FFF;
+    font-size: 10px;
+    font-family: initial;
+    margin-right: 12px;
+    padding: 0 8px;
+}
+
+.project-2 .now-showing-title {
+    background-color: gray;
+}
+
+.project-2 .header-controls {
+    padding: 11px 0;
+}
+
+.project-2 .header-action__close {
+    color: gray;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 24px;
+}
+
+.project-2 .movie-card {
+    background-color: gray;
+    position: relative;
+    margin: 0 41px 48px 0;
+}
+
+.project-2 .movie-card__loader {
+    background: transparent;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    height: 50px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+}
+
+.project-2 .movie-card__loader::after {
+    content: '';
+    border-style: solid;
+    border-width: 15px 0 15px 20px;
+    border-color: transparent transparent transparent #FFF;
+    display: inline-block;
+    height: 0;
+    left: 53%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+}
+
+.project-2 .movie-card__event {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    overflow: hidden;
+    max-width: 200px;
+    padding-top: 4px;
+    text-overflow: ellipsis;
+}
+
+.project-2 .movie-card__show-date {
+    background-color: lightgreen;
+    border-radius: 50%;
+    box-sizing: border-box;
+    color: #FFF;
+    display: inline-block;
+    font-size: 8px;
+    font-weight: bold;
+    height: 44px;
+    padding: 11px 0;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 10px;
+    width: 44px;
+}
+
+.project-2 .movie-card__response {
+    bottom: 30px;
+    color: #FFF;
+    font-size: 8px;
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+}
+
+.project-2 .movie-card__response-perc {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.project-2 .movie-card__response-votes {
+
+}
+
+.project-2 .project-2__movies {
+    padding: 36px;
+}
+
+.project-2 .movie-card {
+    position: relative;
+}
+
+.project-2 .movie-card.live {
+    margin-bottom: 500px;
+}
+
+
+.project-2 .filters__title {
+    font-size: 11px;
+    margin-right: 8px;
+}
+
+.project-2 .filters__item {
+    background-color: darkgray;
+    border-radius: 16px;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 11px;
+    margin: 8px;
+    padding: 8px;
+}
+
+.project-2 .filters__item::after {
+    content: 'X';
+    display: inline-block;
+    font-family: inherit;
+    font-size: 11px;
+    margin-left: 8px;
+}
+
+.project-2 .movie-card__trailer {
+    display: inline-block;
+    left: 0;
+    position: absolute;
+    top: 350px;
+    width: 85vw;
+}
+
+.project-2 .movie-trailer {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    min-height: 420px;
+}
+
+.project-2 .movie-trailer__content {
+    flex: 2;
+    margin-right: 12px;
+}
+
+.project-2 .movie-trailer__details {
+    background-color: #333;
+    color: #FFF;
+    flex: 1;
+    padding: 12px;
+    text-align: left;   
+}
+
+.project-2 .movie-trailer__name {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.project-2 .movie-trailer__language {
+    font-size: 9px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.project-2 .movie-trailer__genres {
+    width: 100%;
+    white-space: nowrap;
+}
+
+.project-2 .movie-trailer__genre {
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    font-size: 7px;
+    margin: 0px 8px 8px 0;
+    padding: 4px;
+}
+
+.project-2 video,
+.project-2 embed {
+    height: 100%;
+    width: 100%
+}
+
+
+@media all and (min-width: 640px) {
+    .project-2 .movie-card {
+        margin-right: 60px;
+    }
+
+    .project-2 .project-2__movies {
+        padding-right: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .project-2 .movie-card:nth-child(2n) {
+        margin-right: 0; 
+    }
+}
+
+@media all and (min-width: 768px) {
+    .project-2 .movie-card {
+        margin-right: 20px;
+    }
+
+    .project-2 .project-2__movies {
+        padding-right: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .project-2 .movie-card:nth-child(2n) {
+        margin-right: 20px; 
+    }
+
+    .project-2 .movie-card:nth-child(3n) {
+        margin-right: 0; 
+    }
+}
+
+@media all and (min-width: 1024px) {
+    .project-2 .movie-card:nth-child(3n) {
+        margin-right: 20px; 
+    }
+
+    .project-2 .movie-card:nth-child(4n) {
+        margin-right: 0; 
+    }
+}
+
+@media all and (min-width: 1225px) {
+    .project-2 .movie-card:nth-child(4n) {
+        margin-right: 20px; 
+    }
+
+    .project-2 .movie-card:nth-child(5n) {
+        margin-right: 0; 
+    }
+}

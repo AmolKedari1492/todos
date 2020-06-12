@@ -1,0 +1,96 @@
+.problem-1 {
+    border: 1px solid #E8E8E8;
+    margin: 24px;
+    padding: 24px;
+}
+.problem-1 .problem-1__unique-numbers, 
+.problem-1 .problem-1__repeated-numbers {
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    padding: 24px;
+    margin: 24px;
+    max-height: 250px;
+    overflow: scroll;
+}
+
+.problem-1 .problem-1__unique-numbers:hover, 
+.problem-1 .problem-1__repeated-numbers:hover {
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+}
+
+.problem-1 .number {
+    background-color: #007bff;
+    border-radius: 8px;
+    border-color: #007bff;
+    color: #FFF;
+    display: inline-block;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 4px;
+    min-width: 24px;
+    min-height: 24px;
+    text-align: center;
+    padding: 12px;
+    white-space: nowrap;
+}
+
+.problem-1 .number:hover {
+    position: relative;
+    top: -2px;
+}
+
+.problem-1 input {
+    background-color: #FFF;
+    border: 1px solid #ced4da;
+    color: #495057;
+    display: block;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 24px;
+    padding: 8px 24px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: calc(100% - 100px);
+}
+
+.problem-1 h3, 
+.problem-1 h4, 
+.problem-1 h6 {
+    color: #282c3f;
+    font-size: 16px;
+    font-weight: 500;
+    overflow: hidden;
+    margin: 0;
+    margin-bottom: 8px;
+    vertical-align: top;
+    text-decoration: underline;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.problem-1 .problem-1__controls-errors {
+    background-color: #cce5ff;
+    border: 1px solid transparent;
+    border-color: #b8daff;
+    border-radius: 8px; 
+    color: #004085;
+    padding: 12px;
+    margin: 12px 24px;
+}
+
+.problem-1 p {
+    display: block;
+    font-size: 14px;
+    font-family: monospace;
+    line-height: 1.2;
+    margin: 24px;
+}
+
+.problem-1 .problem-1__unique-numbers h4,
+.problem-1 .problem-1__repeated-numbers h4  {
+    background: #FFF;
+    border-bottom: 1px solid #E8E8E8;
+    position: sticky;
+    padding: 24px;
+    top: -24px;
+}
