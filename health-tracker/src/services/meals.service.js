@@ -11,7 +11,7 @@ class MealsService {
                 'content-type':'application/json',
                 'Access-Control-Allow-Origin': '*'
             },
-            baseURL: "http://akedari-dummy-api.herokuapp.com/"
+            baseURL: "https://akedari-dummy-api.herokuapp.com/"
         }).then(resp => successHandler(resp.data), (err) => errorHandler(err))
     }
 
@@ -24,7 +24,7 @@ class MealsService {
                 'content-type':'application/json',
                 'Access-Control-Allow-Origin': '*'
             },
-            baseURL: "http://akedari-dummy-api.herokuapp.com/"
+            baseURL: "https://akedari-dummy-api.herokuapp.com/"
         }).then(resp => successHandler(resp.data), (err) => errorHandler(err))
     }
     
@@ -37,7 +37,7 @@ class MealsService {
                 'content-type':'application/json',
                 'Access-Control-Allow-Origin': '*'
             },
-            baseURL: "http://akedari-dummy-api.herokuapp.com/",
+            baseURL: "https://akedari-dummy-api.herokuapp.com/",
             data,
         }).then(resp => successHandler(resp.data), (err) => errorHandler(err))
     }
@@ -51,7 +51,7 @@ class MealsService {
                 'content-type':'application/json',
                 'Access-Control-Allow-Origin': '*'
             },
-            baseURL: "http://akedari-dummy-api.herokuapp.com/",
+            baseURL: "https://akedari-dummy-api.herokuapp.com/",
             data,
         }).then(resp => successHandler(resp.data), (err) => errorHandler(err))
     }
@@ -65,7 +65,7 @@ class MealsService {
                 'content-type':'application/json',
                 'Access-Control-Allow-Origin': '*'
             },
-            baseURL: "http://akedari-dummy-api.herokuapp.com/"
+            baseURL: "https://akedari-dummy-api.herokuapp.com/"
         }).then(resp => successHandler(resp.data), (err) => errorHandler(err))
     }
 };
