@@ -1,0 +1,90 @@
+.user-home__list {
+    padding: 0 48px;
+}
+
+.user-home h2,
+.user-home h3,
+.user-home h4 {
+    text-align: center;
+}
+
+.user-home__filter {
+    display: flex;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px 48px;
+    margin: 0 28px;
+}
+
+.user-home__filter .filter-item {
+    margin-right: 16px;
+}
+
+.user-home__list .meals-list__header,
+.user-home__list .meals-list__values {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.user-home__list .meals-list__header {
+    color: #004085;
+    font-weight: 700;
+}
+.user-home__list .meals-list__values--item {
+    position: relative;
+    display: block;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    margin-right: 8px;
+    font-size: 12px;
+    line-height: 1;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.badge {
+    margin-left: 8px;
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 10px;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.badge.badge-green {
+    color: #fff;
+    background-color: #28a745;
+}
+
+.badge.badge-red {
+    color: #fff;
+    background-color: #dc3545;
+}
+

@@ -1,0 +1,27 @@
+.user-list {
+    margin: 0 40px;
+}
+
+h2,
+h3,
+h4 {
+    text-align: center;
+}
+
+.user-list .user-list-item {
+    position: relative;
+    display: block;
+    padding: 5px;
+    background-color: #fff;
+}
+.user-list .user-list-header,
+.user-list .user-list-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.user-list .user-list-header {
+    color: #004085;
+    font-weight: 700;
+}
